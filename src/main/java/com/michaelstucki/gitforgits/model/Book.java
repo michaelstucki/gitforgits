@@ -4,9 +4,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 /**
- * This entity maps a table named Book
+ * This entity maps a table named Book.
  * Spring Boot (with spring-boot-starter-data-jpa and spring-boot-starter-h2)
- * automatically configures an in-memory H2 database.
+ *  automatically configures an in-memory H2 database.
  * When app starts up, an in-memory schema is created.
  */
 
