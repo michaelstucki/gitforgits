@@ -3,6 +3,13 @@ package com.michaelstucki.gitforgits.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+/**
+ * This entity maps a table named Book
+ * Spring Boot (with spring-boot-starter-data-jpa and spring-boot-starter-h2)
+ * automatically configures an in-memory H2 database.
+ * When app starts up, an in-memory schema is created.
+ */
+
 @Entity
 public class Book {
     @Id
